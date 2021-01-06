@@ -1,86 +1,168 @@
 body{
     margin:0px;
     font-family: 'Didact Gothic', sans-serif;
-    font-size:24px;
+    font-size:22px;
+}
+a{
+    text-decoration:none;
+    color:rgb(196, 196, 196);
 }
 /* styling the top-middle section */
 .half{
     width: 40%;
     float:left;
     margin-left:5%;
+    margin-top:50px;
+    color:rgb(196, 196, 196);
     padding-left:2%;
 }
-.half:first-child{
-    margin-top:50px;
-}
 .half img{
-    width:100%;
+    width:80%;
+    height:80%;
 }
 
-.half h1{
-    text-transform: uppercase;
-    font-size:40px;
-    font-weight:bolder;
+.half p{
+    padding-right:30%;
+    margin-bottom:5%;
 }
 #name{
+    letter-spacing: 0.1em;
     font-weight: bolder;
-    color:rgb(201, 1, 1);
-    font-size:45px;
+    color: #BC2C2D;
+    font-size:70px;
+    text-transform:uppercase;
+}
+#hello{
+    color:rgb(196, 196, 196);
+    font-size:70px;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+#about{
+    color: #F6AD60;
+    font-size:40px;
+    font-weight:600;
 }
 button{
-    background:linear-gradient(90deg, rgb(107, 4, 4), rgb(223, 7, 7));
+    /* background:linear-gradient(90deg, rgb(107, 4, 4), rgb(223, 7, 7)); */
     border-radius:100px;
-    border: 0;
-    padding:15px 40px;
-    font-size:20px;
-    color:rgb(233, 233, 233);
-    margin-top:20px;
+    background-color: transparent;
+    border: 2px solid #AD2A2A;
+    padding:3% 10%;
+    font-size:22px;
+    color:rgb(196, 196, 196);
+    /* margin-top:20px; */
+}
+button:hover{
+    background:linear-gradient(165deg,#1d1f3f, #bc2c2d);
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.397);
+      border:none;
+}
+#downarrow{
+    float:left;
+    width:20px;
+    height:20px;
+    margin-right:10px;
+    text-align:center;
 }
 .top-mid{
-    margin-top:50px;
     height: 830px;
+    background-color:#23253a;
 }
 
 /* let-work */
 #let-work{
     height:1000px;
-    background-color: #e6e6e6;
+    background-color: #1f2235;
 }
 #work-title{
     font-family:'Nunito','Sans-serif';
     text-align:center;
     padding:3%;
     font-weight:600;
-    color:#363958;
+    color:rgb(196, 196, 196);
     font-size:40px;
     text-transform: uppercase;
 
 }
 
 #latest{
-    color:#F46060;
+    color:#bc2c2d;
 }
 #card-stack{
     margin:0;
     top:0;
 }
 .card{
-    background-color:#ffffff;
+    background-color:#232539;
     width:27%;
     margin-left:3%;
     float:left;
     padding:20px;
     border-radius:30px;
-box-shadow: 0 7px 30px -10px rgba(93, 114, 124, 0.5);
+box-shadow: 0 7px 30px -10px rgba(2, 5, 7, 0.5);
 
 }
 .worktext h2{
     font-weight:600px;
-    color:#363958;
+    color: #BC2C2D;
+    font-size:24px;
 }
 .worktext p{
-    color:rgb(95, 95, 95);
+    font-size:20px;
+    color:rgb(184, 184, 184);
 }
 .workimg img{
     width:100%;
+}
+#chat{
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:50px;
+    background-image:url("../Images/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    padding: 6% 10%;
+}
+#contact1, #contact2{
+    padding:5% 10%;
+    background-color:#23253a;
+}
+#chattext{
+    float:left;
+    font-size:60px;
+    font-weight:bolder;
+    text-transform: uppercase;
+    color:white;
+}
+#letschat{
+    margin-left:80%;
+    /* width:30%; */
+
+}
+#letschat button{
+    border:none;
+    background-color: #232539;
+    padding:10% 25%;
+}
+#contact2{
+    text-align:center;
+}
+#Stay{
+    color:#7579aa;
+    font-weight:600;
+    font-size:35px;
+    text-transform:uppercase;
+}
+#contact2 h1{
+    color:rgb(226, 226, 226);
+    font-size:40px;
+    letter-spacing: 4px;
+}
+span.logo img{
+    width:3%;
+    margin-left:2%;
+}
+#logos{
+    margin-left:-3%;
 }
